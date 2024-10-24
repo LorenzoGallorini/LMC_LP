@@ -17,12 +17,3 @@ Il Little Man Computer (LMC) è un semplice modello di computer progettato per s
 Il progetto richiede:
 - Un **simulatore** che, dato uno stato iniziale della memoria e una sequenza di input, simuli il comportamento del LMC e restituisca l'output.
 - Un **assembler** che converta il codice assembly LMC in codice macchina eseguibile dal simulatore.
-
-## Implementazioni
-
-### Prolog
-L'implementazione in Prolog include i seguenti predicati principali:
-
-- **`lmc_load/2`**: carica il contenuto di un file assembly in memoria.
-  ```prolog
-  lmc_load(Filename, Mem).
